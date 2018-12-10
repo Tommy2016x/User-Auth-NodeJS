@@ -1,0 +1,25 @@
+{
+  "name": "userauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./userAuth/app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tommy2016x/User-Auth-NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tommy2016x/User-Auth-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Tommy2016x/User-Auth-NodeJS#readme",
+  "dependencies": {
+    "backpack-core": "^0.8.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
