@@ -31,7 +31,7 @@ const signUp = async (email,password) => {
         }, 'secret');
 
     } catch(err){
-        return err;
+        return 'Invalid information';
     }
         
    
@@ -58,7 +58,7 @@ const login = async (email,password) => {
         }, 'secret');
 
     } catch(err){
-        throw err
+        return 'Invalid information'
     }
 }
 
